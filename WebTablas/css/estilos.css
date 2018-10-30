@@ -1,0 +1,76 @@
+body{
+    width: 100%;
+    height: 500px;
+    background-color: #911d1d;
+}
+
+table{
+    width:95%;
+    margin: 0 auto;
+    border: 3px solid lightgrey;
+    background-color: #34c190;
+    background-image: url("../img/fonfo.jpg");
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+
+table, th, td {
+    padding: 10px
+}
+
+.bandera{
+    width:50px;
+    float:right;
+    cursor: pointer;
+}
+
+.logo{
+
+}
+
+#fila5{
+    font-size:1.5em;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.btnMenus:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#btnInicio{
+    background-color: #f4cb42;
+}
+
+#btnOrdenadores{
+    background-color: #f49241;
+}
+
+#btnCableado{
+    background-color: #db6030;
+}
+
+#btnSoftware{
+    background-color: #a03208;
+}
+
+#btnContacto{
+    background-color: #f49241;
+}
+
+#cuerpoTexto{
+    background: rgba(244, 215, 66, 0.8)
+}
+
+#comienzos{
+    color: #f4cb42;
+}
+
+#filaFooter{
+    color: white;
+}
+
+/*Pagina de contacto*/

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Islandia</title>
+    <link href="css/estilos.css" type="text/css" rel="stylesheet">
+    <script src="js/cambiarIdiomaWeb.js"></script>
+</head>
+<body>
+
+<table>
+    <tr><!--Fila 1-->
+        <td rowspan="4"><img class="logo" src="img/logo.png"></td><!--Celda-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr><!--Fila 2-->
+        <td></td><!--Celda-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td id="btnBanderaEspanola" onclick="cambiarIdiomaWeb(this.id)"><img class="bandera" src="img/espana.png"></td>
+    </tr>
+    <tr><!--Fila 3-->
+        <td></td><!--Celda-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td id="btnBanderaInglesa" onclick="cambiarIdiomaWeb(this.id)"><img class="bandera" src="img/inglaterra.png"></td>
+    </tr>
+    <tr><!--Fila 4-->
+        <td></td><!--Celda-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr id="fila5"><!--Fila 5 Menú-->
+        <td class="btnMenus" id="btnInicio">Home</td><!--Celda-->
+        <td></td>
+        <td  class="btnMenus" id="btnOrdenadores">Laptop</td>
+        <td  class="btnMenus" id="btnCableado">Wire/Nets</td>
+        <td  class="btnMenus" id="btnSoftware">Software</td>
+        <td></td>
+        <td  class="btnMenus" id="btnContacto">Contact</td>
+    </tr>
+    <tr><!--Fila 6-->
+        <td  align="center" id="cuerpoTexto" class="centrarContenido" colspan="7">
+            <h2>You may contact us using the following options:</h2>
+            <p>Telefone: 976-305015</p>
+            <p>Email: medaigual@gmail.com</p>
+            <p>Postal letter: Av. Miralles nº3, Zaragoza (Spain)</p>
+            <img class="gif" src="gif/troglodita.gif">
+        </td><!--Celda-->
+    </tr>
+    <tr id="filaFooter"><!--Fila 7-->
+        <td colspan="3">&copy; 2º DAW Colegio Montessori - Zaragoza</td><!--Celda-->
+        <td>Informática Pepe</td>
+        <td colspan="3">Ordenadores, Cableado/Redes, Software, ...</td>
+    </tr>
+</table>
+
+<script src="js/irAPagina.js"></script>
+</body>
+</html>
