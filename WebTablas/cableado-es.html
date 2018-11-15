@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cableado</title>
+    <link href="css/estilos.css" type="text/css" rel="stylesheet">
+    <script src="js/cambiarIdiomaWeb.js"></script>
+</head>
+<body>
+
+<table>
+    <tr><!--Fila 1-->
+        <td rowspan="4"><img class="logo" src="img/logo.png"></td><!--Celda-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr><!--Fila 2-->
+        <td></td><!--Celda-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td id="btnBanderaEspanola" onclick="cambiarIdiomaWeb(this.id)"><img class="bandera" src="img/espana.png"></td>
+    </tr>
+    <tr><!--Fila 3-->
+        <td></td><!--Celda-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td id="btnBanderaInglesa" onclick="cambiarIdiomaWeb(this.id)"><img class="bandera" src="img/inglaterra.png"></td>
+    </tr>
+    <tr><!--Fila 4-->
+        <td></td><!--Celda-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr id="fila5"><!--Fila 5 Menú-->
+        <td class="btnMenus" id="btnInicio">Inicio</td><!--Celda-->
+        <td></td>
+        <td  class="btnMenus" id="btnOrdenadores">Ordenadores</td>
+        <td  class="btnMenus" id="btnCableado">Cableado/Redes</td>
+        <td  class="btnMenus" id="btnSoftware">Software</td>
+        <td></td>
+        <td  class="btnMenus" id="btnContacto">Contacto</td>
+    </tr>
+    <!--<tr>
+        <td id="cuerpoTexto" colspan="7">
+            <h1>Informática Pepe</h1>
+            <p>Escuchando a algunos políticos, parece que todas sus declaraciones cortas se reducen a una lista de frases precocinadas que nunca se definen sobre el contenido de la pregunta. He recopilado en concreto frases y expresiones usadas por Mariano Rajoy de forma que las frases generadas no se distinguen apenas de las que usa realmente.</p>
+            <h2 id="comienzos">Comienzos</h2>
+            <p>Las primeras películas de Harry Potter me hicieron pensar que había muchos elementos que se repetían siempre, lo que permitía crear una estructura sobre la que construir una sinopsis de una película de Harry Potter. Esta es la gramática más complicada de las que he construido, ya que además de usar las concordancias de número y género usa variables internas para generar elementos a los que se haga referencia más adelante, permite agrupar personajes de forma que un verbo puede conjugarse en singular o plural dependiendo de las personas o elementos que se hayan agrupado en el sujeto, y otras técnicas.</p>
+        </td>-->
+    </tr>
+    <tr class="items"><!--Fila contenido-->
+        <td colspan="3"><img src="img/cableado/1.jpg">Cable de alimentacion Ordenador, Monitor, Impresora etc...</td>
+        <td colspan="3"><img src="img/cableado/2.jpg"> Equip Cable VGA con ferrita Macho/Macho - Cable VGA </td>
+        <td colspan="3"><img src="img/cableado/3.jpg"> Cable Electrico USB para Mindstorms </td>
+    </tr>
+    <tr class="items"><!--Fila contenido-->
+        <td colspan="3"><img src="img/cableado/4.jpg">CABLE SATA DATOS, 0.5 M</td>
+        <td colspan="3"><img src="img/cableado/5.jpg"> Cable DVI-D Macho a DVI-D Macho 1,5m AWM E204139 Style 20276 </td>
+        <td colspan="3"><img src="img/cableado/6.jpg"> Cable Lighting acodado a usb 2.0, lightning/m-usb a/m, blanco, 2.0 m </td>
+    </tr>
+    <tr class="items"><!--Fila contenido-->
+        <td colspan="3"><img src="img/cableado/7.jpg"> Cable lightning acodado a usb 2.0, lightning/m-usb a/m, negro, 2.0 m </td>
+        <td colspan="3"><img src="img/cableado/8.jpg"> Cable usb 2.0 otg para Samsung, 30p/m-a/h, negro, 15 cm </td>
+        <td colspan="3"></td>
+    </tr>
+    <!--<tr class="items">
+        <td colspan="3"></td>
+        <td colspan="3"></td>
+        <td colspan="3"></td>
+    </tr>-->
+    <tr id="filaFooter"><!--Fila 7-->
+        <td colspan="3">&copy; 2º DAW Colegio Montessori - Zaragoza</td><!--Celda-->
+        <td>Informática Pepe</td>
+        <td colspan="3">Ordenadores, Cableado/Redes, Software, ...</td>
+    </tr>
+</table>
+
+<script src="js/irAPagina.js"></script>
+</body>
+</html>

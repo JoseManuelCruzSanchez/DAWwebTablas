@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ordenadores</title>
+    <link href="css/estilos.css" type="text/css" rel="stylesheet">
+    <script src="js/cambiarIdiomaWeb.js"></script>
+</head>
+<body>
+
+<table>
+    <tr><!--Fila 1-->
+        <td rowspan="4"><img class="logo" src="img/logo.png"></td><!--Celda-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr><!--Fila 2-->
+        <td></td><!--Celda-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td id="btnBanderaEspanola" onclick="cambiarIdiomaWeb(this.id)"><img class="bandera" src="img/espana.png"></td>
+    </tr>
+    <tr><!--Fila 3-->
+        <td></td><!--Celda-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td id="btnBanderaInglesa" onclick="cambiarIdiomaWeb(this.id)"><img class="bandera" src="img/inglaterra.png"></td>
+    </tr>
+    <tr><!--Fila 4-->
+        <td></td><!--Celda-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr id="fila5"><!--Fila 5 Menú-->
+        <td class="btnMenus" id="btnInicio">Inicio</td><!--Celda-->
+        <td></td>
+        <td  class="btnMenus" id="btnOrdenadores">Ordenadores</td>
+        <td  class="btnMenus" id="btnCableado">Cableado/Redes</td>
+        <td  class="btnMenus" id="btnSoftware">Software</td>
+        <td></td>
+        <td  class="btnMenus" id="btnContacto">Contacto</td>
+    </tr>
+    <!--<tr>
+        <td id="cuerpoTexto" colspan="7">
+            <h1>Informática Pepe</h1>
+            <p>Escuchando a algunos políticos, parece que todas sus declaraciones cortas se reducen a una lista de frases precocinadas que nunca se definen sobre el contenido de la pregunta. He recopilado en concreto frases y expresiones usadas por Mariano Rajoy de forma que las frases generadas no se distinguen apenas de las que usa realmente.</p>
+            <h2 id="comienzos">Comienzos</h2>
+            <p>Las primeras películas de Harry Potter me hicieron pensar que había muchos elementos que se repetían siempre, lo que permitía crear una estructura sobre la que construir una sinopsis de una película de Harry Potter. Esta es la gramática más complicada de las que he construido, ya que además de usar las concordancias de número y género usa variables internas para generar elementos a los que se haga referencia más adelante, permite agrupar personajes de forma que un verbo puede conjugarse en singular o plural dependiendo de las personas o elementos que se hayan agrupado en el sujeto, y otras técnicas.</p>
+        </td>-->
+    </tr>
+    <tr class="items"><!--Fila contenido-->
+        <td colspan="3"><img src="img/ordenadores/1.jpg">HP 8200 SFF i3 2100 3.1 GHz | 4 GB Ram | 500 HDD |DOBLE PANTALLA 23" | GRAFICA 1GB</td>
+        <td colspan="3"><img src="img/ordenadores/2.jpg">HP 8200 SFF i3 2100 3.1 GHz | 4 GB Ram | 500 HDD | LECTOR | LCD 22"</td>
+        <td colspan="3"><img src="img/ordenadores/3.jpg">HP 8200 SFF i3 2100 3.1 GHz | 4 GB Ram | 500 HDD | LCD 19"</td>
+    </tr>
+    <tr class="items"><!--Fila contenido-->
+        <td colspan="3"><img src="img/ordenadores/4.jpg"> Ordenador Nuevo INTEL I5 4460 3,2 GHz | 8GB | 1TB HDD | MINITORRE ATX - 500 W </td>
+        <td colspan="3"><img src="img/ordenadores/5.jpg">Ordenador INTEL CORE I3 7100 (7º) 3.9 Ghz | 8 GB | 1TB HDD | HDMI</td>
+        <td colspan="3"><img src="img/ordenadores/6.jpg"> Ordenador Nuevo Intel Core I3 7100 (7º Gen ) 3.9 Ghz | 8 GB | 240 SSD </td>
+    </tr>
+    <tr class="items"><!--Fila contenido-->
+        <td colspan="3"><img src="img/ordenadores/7.jpg"> Lenovo M93P i5 4570 3.2GHz | 4 GB Ram | 500 HDD | DVD </td>
+        <td colspan="3"><img src="img/ordenadores/8.jpg"> HP 8200 SFF i3 2100 3.1 GHz | 4 GB Ram | 120 SSD | COA 7 PRO | LECTOR </td>
+        <td colspan="3"><img src="img/ordenadores/9.jpg"> RASPBERRY - STARTER KIT RASPBERRY PI 3 MODELO B MICROSD 8GB | Negro </td>
+    </tr>
+    <tr class="items"><!--Fila contenido-->
+        <td colspan="3"><img src="img/ordenadores/10.jpg"> KIT RASPBERRY PI 3+MICRO SD32GB | CAJA NEGRA+F.A | Negro </td>
+        <td colspan="3"></td>
+        <td colspan="3"></td>
+    </tr>
+    <tr id="filaFooter"><!--Fila 7-->
+        <td colspan="3">&copy; 2º DAW Colegio Montessori - Zaragoza</td><!--Celda-->
+        <td>Informática Pepe</td>
+        <td colspan="3">Ordenadores, Cableado/Redes, Software, ...</td>
+    </tr>
+</table>
+
+<script src="js/irAPagina.js"></script>
+</body>
+</html>

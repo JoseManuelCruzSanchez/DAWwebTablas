@@ -16,7 +16,7 @@ table{
 }
 
 table, th, td {
-    padding: 10px
+    padding: 10px;
 }
 
 .bandera{
@@ -62,7 +62,7 @@ table, th, td {
 }
 
 #cuerpoTexto{
-    background: rgba(244, 215, 66, 0.8)
+    background: rgba(244, 215, 66, 0.8);
 }
 
 #comienzos{
@@ -73,4 +73,15 @@ table, th, td {
     color: white;
 }
 
-/*Pagina de contacto*/
+/*Paginas de productos*/
+.items{
+    background: rgba(244, 215, 66, 0.8);
+}
+.items > td{
+    width: 33%;
+}
+.items > td > img{
+    width: 30%;
+    float: left;
+    margin-right: 15px;
+}
